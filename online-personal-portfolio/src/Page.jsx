@@ -1,5 +1,6 @@
 import { Button, Card, CardTitle, Col, Row } from "react-bootstrap";
 import React from "react";
+import Header from "./Header";
 
 
 class Page extends React.Component{
@@ -13,7 +14,7 @@ class Page extends React.Component{
     render(){
         return(
             <Card>
-                a
+                <Card.Title><Header/></Card.Title>
             </Card>
         )
     }
