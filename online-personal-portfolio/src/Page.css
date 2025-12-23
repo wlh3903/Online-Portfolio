@@ -1,26 +1,15 @@
 body {
-    background-color: black;
-    color: white;
-    
+    background: linear-gradient(75deg, #3300CC, #330033);
+    color: #FFFFFF;
 }
 
-.col1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.card{
+    background: linear-gradient(75deg, #3300CC, #330033);
+    color: #FFFFFF;
+    border: 0;
+
 }
 
-.col1 h1 {
-    color: orange;
-}
-
-.col2 {
-    text-align: center;
-    display: flex;
-}
-
-.col2 h1{
-    color: orange;
+.header{
+    size: 150px;
 }

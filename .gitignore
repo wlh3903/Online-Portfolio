@@ -27,3 +27,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.swp
+
+
+#Color Palletes
+color_pallete*.txt
