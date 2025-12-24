@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 
-class AboutMe extends React.Component{
+class Contact extends React.Component{
     constructor(props){
         super(props)
     }
@@ -9,11 +9,13 @@ class AboutMe extends React.Component{
     render(){
         return(
             <>
-                <div>About Me</div>
+                <div>
+                    Contact Info
+                </div>
                 <Navigation />
             </>
         )
     }
 }
 
-export default AboutMe
+export default Contact
