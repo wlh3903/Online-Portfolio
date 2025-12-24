@@ -1,33 +1,25 @@
-import { Button, Card, CardTitle, Col, Row } from "react-bootstrap";
 import React from "react";
+import { Card, Button } from "react-bootstrap";
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import './Home.css'
+import './Home.css';
 
-
-class Page extends React.Component{
-    constructor(props){
-        super(props)
-        this.state = {
-
-        }
-    }
-
-    render(){
-        return(
-            <>
-            <Card>
-                <Card.Title><Header/></Card.Title>
-                <Card.Body>
-
-                </Card.Body>
-                <Card.Footer className="footer">
-                    <Navigation />
-                </Card.Footer>
-            </Card>
-            </>
-        )
-    }
+const Page = () => {
+  return (
+    <>
+      <Card>
+        <Card.Title><Header /></Card.Title>
+        <Card.Body>
+          {/* Add some content here */}
+          <p>Welcome to the Home Page!</p>
+          <Button variant="primary">Click me</Button>
+        </Card.Body>
+        <Card.Footer className="footer">
+          <Navigation />
+        </Card.Footer>
+      </Card>
+    </>
+  );
 }
 
-export default Page
+export default Page;
