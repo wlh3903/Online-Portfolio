@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
+import { Container } from "react-bootstrap";
 
 class Resume extends React.Component{
     constructor(props){
@@ -8,12 +9,9 @@ class Resume extends React.Component{
 
     render(){
         return(
-            <>
-                <div>
-                    Resume page
-                </div>
+            <Container>
                 <Navigation />
-            </>
+            </Container>
         )
     }
 }
