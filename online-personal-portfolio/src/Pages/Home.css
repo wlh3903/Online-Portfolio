@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(75deg, #3300CC, #000000);
+    color: #FFFFFF;
+}
+
+.card{
+    background: linear-gradient(75deg, #3300CC, #000000);
+    color: #FFFFFF;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
