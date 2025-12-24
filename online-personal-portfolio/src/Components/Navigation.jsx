@@ -16,9 +16,12 @@ class Navigation extends React.Component{
             <Navbar>
                 <Container>
                     <Navbar.Brand className="footer" href="home">Home</Navbar.Brand>
-                    <Nav defaultActiveKey="/home" onSelect={(selected) => {alert(`selected ${selected}`)}}>
+                    <Nav defaultActiveKey="/home">
                         <Nav.Item className="footer">
                             <Nav.Link href="/home">Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="footer">
+                            <Nav.Link href="/about">About</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>

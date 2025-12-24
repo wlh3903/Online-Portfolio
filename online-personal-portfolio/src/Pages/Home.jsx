@@ -4,7 +4,7 @@ import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
 import './Home.css';
 
-const Page = () => {
+const Home = () => {
   return (
     <>
       <Card>
@@ -22,4 +22,4 @@ const Page = () => {
   );
 }
 
-export default Page;
+export default Home;
