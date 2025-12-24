@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
+import { Container, Row } from "react-bootstrap";
 
 class Contact extends React.Component{
     constructor(props){
@@ -8,12 +9,11 @@ class Contact extends React.Component{
 
     render(){
         return(
-            <>
-                <div>
-                    Contact Info
-                </div>
-                <Navigation />
-            </>
+            <Container>
+                <Row className="nav">
+                    <Navigation></Navigation>
+                </Row>
+            </Container>
         )
     }
 }

@@ -17,14 +17,14 @@ class Navigation extends React.Component{
                 <Container>
                     <Navbar.Brand className="footer" href="/">Home</Navbar.Brand>
                     <Nav variant="underline" defaultActiveKey="/">
-                        <Nav.Item className="footer">
-                            <Nav.Link href="/contact">Contact Me</Nav.Link>
+                        <Nav.Item >
+                            <Nav.Link href="/contact" className="footer">Contact Me</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="footer">
-                            <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Item >
+                            <Nav.Link href="/about" className="footer">About</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="footer"> 
-                            <Nav.Link href="/resume">Resume</Nav.Link>
+                        <Nav.Item> 
+                            <Nav.Link href="/resume" className="footer">Resume</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>
