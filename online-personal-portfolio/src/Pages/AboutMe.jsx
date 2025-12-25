@@ -11,7 +11,7 @@ class AboutMe extends React.Component{
         return(
             <Container>
                 <Navigation />
-                <Container>
+                <Container className="backdrop">
                     <Row className="para" as='p'>
                         Hi, I'm Warner Harper. I'm a second-year Software Engineering student at the Rochester Institute of Technology, enrolled in the Combined Accelerated Bachelor's/Master's Program. I expect to earn my Bachelor of Science in Software Engineering in Spring 2029 and my Master of Science in Cybersecurity in Spring 2030.
                     </Row>

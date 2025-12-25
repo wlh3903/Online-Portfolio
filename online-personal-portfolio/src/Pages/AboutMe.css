@@ -1,10 +1,22 @@
+body{
+    font-family: 'Montserrat', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.backdrop{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #2e2e2e;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
 .para{
-    
     color: #FFFFFF;
     display: flex;
     text-align: justify;
     justify-items: left;
-    margin-top: 64px;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: auto;
+    margin-top: auto;
 }
