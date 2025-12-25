@@ -1,0 +1,10 @@
+.para{
+    
+    color: #FFFFFF;
+    display: flex;
+    text-align: justify;
+    justify-items: left;
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
