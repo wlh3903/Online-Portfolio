@@ -4,7 +4,7 @@ body {
 }
 
 .card{
-    background: linear-gradient(75deg, #3300CC, #000000);
+    background: none;
     color: #FFFFFF;
     border: 0;
     width: 100%;
