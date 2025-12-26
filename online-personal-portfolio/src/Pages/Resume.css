@@ -1,18 +1,26 @@
 .preview{
     margin: 30px auto;
-    width: 100%;
+    margin-bottom: 0px;
+    width: auto;
     max-width: 800px;
     aspect-ratio: 8.5 / 11;
     height: auto;
-    position: relative;
+    
 }
 
 .viewer{
-    width: 80%;
+    position: absolute;
+    top: 10%;
+    width: 100%;
     height: 85%;
     border: none;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
 }

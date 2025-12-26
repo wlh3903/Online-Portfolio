@@ -15,9 +15,6 @@ const Home = () => {
       <Card>
         <Card.Title><Header /></Card.Title>
         <Card.Body>
-          {/* Add some content here */}
-          <p>Welcome to the Home Page!</p>
-          <Button variant="primary">Click me</Button>
         </Card.Body>  
       </Card>
     </>

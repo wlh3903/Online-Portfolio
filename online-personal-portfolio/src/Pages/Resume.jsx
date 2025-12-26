@@ -13,10 +13,10 @@ class Resume extends React.Component{
         return(
             <Container>
                 <Navigation />
-                <Ratio className="preview">
+                <Ratio className="preview" aspectRatio={8.5 / 11}>
                     <iframe className="viewer" src="https://drive.google.com/file/d/1sNvtIu8usUzG3jJhbEp8_16CH0iSrSnf/preview" />
                 </Ratio>
-                <a href={resumePDF} download="online-personal-portfolio\src\assets\Resume-Warner_H.pdf" target="_blank" rel="noopener noreferrer">
+                <a className="button" href={resumePDF} download="online-personal-portfolio\src\assets\Resume-Warner_H.pdf" target="_blank" rel="noopener noreferrer">
                     <Button variant="info">Download Resume</Button>
                 </a>
             </Container>
