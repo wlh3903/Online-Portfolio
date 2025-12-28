@@ -1,6 +1,10 @@
 import React from "react";
-import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Nav, Navbar, Row } from "react-bootstrap";
 import './Projects.css'
+
+const NUTRIKITPNG = "../src/assets/Nutrikit.png"
+const ARMADAPNG = "../src/assets/Armada.png"
+const SPORTCONNECTPNG = "../src/assets/SportConnect.png"
 
 class Projects extends React.Component{
     constructor(props){
@@ -11,15 +15,29 @@ class Projects extends React.Component{
         return(
             <Container>
                 <Row>
-                    <Col className="col1">
-                        Col 1
+                    <Col>
+                        <Image src={NUTRIKITPNG} alt="NutriKit Screenshot" rounded width="400"/>
                     </Col>
-                    <Col className="col2">
-                        Col 2
+                    <Col>
+                        <p>img_1 words</p>
                     </Col>
-                    <Col className="col3">
-                        Col 3
+                </Row>
+                <Row>
+                    <Col>
+                        <p>img_2 words</p>
                     </Col>
+                    <Col>
+                        <Image src={SPORTCONNECTPNG} alt="SportConnect Helper in Screenshot" rounded width="400" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Image src={ARMADAPNG} alt="Armada screenshot" rounded width="400" />
+                    </Col>
+                    <Col>
+                        <p>img_3 words</p>
+                    </Col> 
+                    
                 </Row>
             </Container>
         )
