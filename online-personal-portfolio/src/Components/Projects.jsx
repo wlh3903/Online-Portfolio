@@ -2,9 +2,9 @@ import React from "react";
 import { Button, Col, Container, Image, Nav, Navbar, Row } from "react-bootstrap";
 import './Projects.css'
 
-const NUTRIKITPNG = "../../public/NutriKit.png"
-const ARMADAPNG = "../../public/Armada.png"
-const SPORTCONNECTPNG = "../../public/SportConnect.png"
+const NUTRIKITPNG = "/NutriKit.png"
+const ARMADAPNG = "/Armada.png"
+const SPORTCONNECTPNG = "/SportConnect.png"
 
 class Projects extends React.Component{
     constructor(props){
