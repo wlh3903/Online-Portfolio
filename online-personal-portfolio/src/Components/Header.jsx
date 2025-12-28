@@ -9,7 +9,7 @@ class Header extends React.Component{
                 <Row className="title" as="h1">
                     Hello! I am Warner Harper
                 </Row>
-                <Row className="brief" as="p">
+                <Row as="p">
                     I am a second year Software Engineering major at Rochester Institute of Technology.<br />
                     The images below will redirect you to my top 3 projects I have completed, as well as what I contriubtued to make them successful.
                 </Row>
