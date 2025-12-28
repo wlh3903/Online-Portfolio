@@ -18,13 +18,13 @@ class Projects extends React.Component{
                     <Col md="auto" >
                         <Image src={NUTRIKITPNG} alt="NutriKit Screenshot" rounded width="400"/>
                     </Col>
-                    <Col>
-                        <p>img_1 words</p>
+                    <Col as="h2" className="image-title-left">
+                        NutriKit Food Planner (Solo Project)
                     </Col>
                 </Row>
                 <Row className="above-space">
-                    <Col>
-                        <p>img_2 words</p>
+                    <Col as="h2" className="image-title-right">
+                        SportConnect (Team Project)
                     </Col>
                     <Col md="auto">
                         <Image src={SPORTCONNECTPNG} alt="SportConnect Helper in Screenshot" rounded width="400" />
@@ -34,8 +34,8 @@ class Projects extends React.Component{
                     <Col md="auto">
                         <Image src={ARMADAPNG} alt="Armada screenshot" rounded width="400" />
                     </Col>
-                    <Col>
-                        <p>img_3 words</p>
+                    <Col as="h2" className="image-title-left">
+                        Armada (Team Project)
                     </Col> 
                     
                 </Row>

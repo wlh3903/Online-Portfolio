@@ -15,9 +15,18 @@
 
 .above-space{
     margin-top: 2rem;
+    align-items: center;
 }
 
 .image{
     padding: 0rem;
-    md: 'auto';
+}
+
+.image-title-left{
+    font-weight: bold;
+}
+
+.image-title-right{
+    font-weight: bold;
+    text-align: right;
 }
