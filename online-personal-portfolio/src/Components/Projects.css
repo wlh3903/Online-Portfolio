@@ -2,3 +2,22 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.shift{
+    margin-left: 45px;
+}
+
+.above-space{
+    margin-top: 2rem;
+}
+
+.image{
+    padding: 0rem;
+    md: 'auto';
+}

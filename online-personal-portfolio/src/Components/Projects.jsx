@@ -13,25 +13,25 @@ class Projects extends React.Component{
 
     render(){
         return(
-            <Container>
-                <Row>
-                    <Col>
+            <Container className="shift">
+                <Row className="above-space">
+                    <Col md="auto" >
                         <Image src={NUTRIKITPNG} alt="NutriKit Screenshot" rounded width="400"/>
                     </Col>
                     <Col>
                         <p>img_1 words</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="above-space">
                     <Col>
                         <p>img_2 words</p>
                     </Col>
-                    <Col>
+                    <Col md="auto">
                         <Image src={SPORTCONNECTPNG} alt="SportConnect Helper in Screenshot" rounded width="400" />
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
+                <Row className="above-space">
+                    <Col md="auto">
                         <Image src={ARMADAPNG} alt="Armada screenshot" rounded width="400" />
                     </Col>
                     <Col>

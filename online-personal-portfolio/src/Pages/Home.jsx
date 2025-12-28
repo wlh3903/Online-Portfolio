@@ -14,7 +14,7 @@ const Home = () => {
         </Row>
         <Card>
           <Card.Title><Header /></Card.Title>
-          <Card.Body className="shift-right">
+          <Card.Body className="project">
             <Projects />
           </Card.Body>  
         </Card>
