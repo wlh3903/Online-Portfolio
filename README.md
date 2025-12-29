@@ -1,3 +1,4 @@
+![Static Badge](https://badgen.net/static/current%20version/v0.1.0/purple) ![Static Badge](https://badgen.net/static/LICENSE/MIT/blue)
 # Online Personal Portfolio
 ## An online catalog of my projects and exerpiences
 ---
