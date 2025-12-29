@@ -10,3 +10,20 @@
 
 ---
 
+## How to run Online-Personal-Portfolio
+
+1. Clone the repository
+2. Open a terminal and change directory (`cd`) into the directory `Online-Portfolio`. 
+    a. Command: 
+    ```
+    cd Online-Portfolio
+    ```
+3. Open a terminal and  into the directory named `online-personal-portfolio`
+    a. Command: 
+    ```
+    cd online-personal-portfolio
+    ```
+4. Then run: ```npm install```.
+
+#### Congratulations! You have prepared your environment! Use `npm run dev` to launch the development server.
+
