@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Col, Container, Image, Nav, Navbar, Row } from "react-bootstrap";
 import './Projects.css'
+import { Col, Container, Image, Row } from "react-bootstrap";
 
 const NUTRIKITPNG = "/NutriKit.png"
 const ARMADAPNG = "/Armada.png"
@@ -37,7 +37,6 @@ class Projects extends React.Component{
                     <Col as="h2" className="image-title-left">
                         Armada (Team Project)
                     </Col> 
-                    
                 </Row>
             </Container>
         )
