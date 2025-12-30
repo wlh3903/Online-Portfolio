@@ -1,12 +1,18 @@
-import { Card, Container, Row } from "react-bootstrap";
+import React from "react";
+import './Home.css';
 import Header from "../Components/Header";
 import Navigation from "../Components/Navigation";
-import './Home.css';
 import Projects from "../Components/Projects";
+import { Card, Container, Row } from "react-bootstrap";
 
-const Home = () => {
-  return (
-    <>
+class Home extends React.Component{
+
+  constructor(props){
+    super(props)
+  }
+
+  render(){
+    return(
       <Container>
         <Row>
           <Navigation />
@@ -18,8 +24,8 @@ const Home = () => {
           </Card.Body>  
         </Card>
       </Container>
-    </>
-  );
+    )
+  }
 }
 
 export default Home;
