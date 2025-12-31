@@ -1,6 +1,5 @@
 import React from "react";
-import Navigation from "../Components/Navigation";
-import { Button, Container, Ratio, Row } from "react-bootstrap";
+import { Button, Container, Ratio } from "react-bootstrap";
 import resumePDF from "../../public/Resume-Warner_H.pdf"
 import "./Resume.css"
 
@@ -12,7 +11,6 @@ class Resume extends React.Component{
     render(){
         return(
             <Container>
-                <Navigation />
                 <Ratio className="preview" aspectRatio={8.5 / 11}>
                     <iframe className="viewer" src="https://drive.google.com/file/d/1sNvtIu8usUzG3jJhbEp8_16CH0iSrSnf/preview" />
                 </Ratio>

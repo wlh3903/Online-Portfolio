@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import "./Navigation.css";
+import { Container, Nav, Navbar } from "react-bootstrap";
+
 
 class Navigation extends React.Component{
 
@@ -20,8 +21,6 @@ class Navigation extends React.Component{
         }
     }
 
-    
-
     render(){
         return(
             <>
@@ -30,8 +29,6 @@ class Navigation extends React.Component{
                     <Navbar.Brand className="footer" href="/">Home</Navbar.Brand>
                     <Nav variant="underline" activeKey={this.state.active}>
                         <Nav.Item >
-                            {/* <Nav.Link href="/contact" className="footer">Contact Me</Nav.Link> */}
-                            {/* <a className="contact" href='https://dot.cards/warnerharper' target="_blank">Contact Me</a> */}
                             <Nav.Link href='https://dot.cards/warnerharper' target="_blank" className="footer">Contact Me</Nav.Link>
                         </Nav.Item>
                         <Nav.Item >
